@@ -1,7 +1,6 @@
 -----------------------------------
 --Note  :直播弹幕请求入口
---Author:liyanlin@baofeng.com
---Time  :2016-06-16
+--Author:04007.cn
 -----------------------------------
 
 --全局调试开关
@@ -10,7 +9,7 @@ debug_status = false
 -------------------------------------------一、全局基础加载-----------------------------------
 
 --1.1，定义lua文件包含路径，加载基本文件
-base_path = '/opt/baofeng-data/danmu_live/current/'  --全局路径前缀
+base_path = '/opt/data/danmu_live/current/'  --全局路径前缀
 package.path = base_path .. '?.lua;'
 config = require 'config.config'
 help   = require "library.help"
